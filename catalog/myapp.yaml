@@ -24,6 +24,6 @@ spec:
   type: website
   system: myapp
   owner: myapp-dev-team
-  lifecycle: production
+  lifecycle: development
   dependsOn:
     - resource:myappdb
