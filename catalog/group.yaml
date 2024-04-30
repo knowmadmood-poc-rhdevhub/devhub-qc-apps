@@ -10,6 +10,5 @@ spec:
     # Intentional no displayName for testing
     email: NOMESCRIBAS.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s 
-spec:
-  type: team
+  parent: backstage
   children: []
