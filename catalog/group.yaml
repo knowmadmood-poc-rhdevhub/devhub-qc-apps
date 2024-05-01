@@ -22,4 +22,4 @@ spec:
     # Intentional no displayName for testing
     email: ichaso-rhdh-developer@nomEscribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
-  memberOf: [team-a]
+  memberOf: [myapp-dev-team]
