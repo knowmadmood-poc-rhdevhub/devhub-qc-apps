@@ -1,4 +1,4 @@
-apiVersion: backstage.io/v1alpha1
+mbrillosapiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: myapp-dev-team
@@ -10,4 +10,4 @@ spec:
     email: oye@nomEscribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
   # parent: myapp-location
-  children: []
+  children: [membrillos-equipo-desarrollo-myapp]
