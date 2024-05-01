@@ -11,15 +11,3 @@ spec:
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
   parent: myapp-location
   children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: ichaso-rhdh-developer
-spec:
-  profile:
-    # Intentional no displayName for testing
-    email: ichaso-rhdh-developer@nomEscribas.com
-    picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
-  memberOf: [myapp-dev-team]
----
