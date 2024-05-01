@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: myapp
-  title: Example component for RHDH
+  title: Componente de ejemplo para RHDH de la LoB Industrialización
   description: |
     This is the example component for RHDH
   links:
