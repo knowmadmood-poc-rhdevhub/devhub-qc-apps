@@ -8,7 +8,19 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: NOMESCRIBAS.com
-    picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s 
+    email: oye@nomEscribas.com
+    picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
   parent: backstage
   children: []
+  []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ichaso-rhdh-developer
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: ichaso-rhdh-developer@nomEscribas.com
+    picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
+  memberOf: [team-a]
