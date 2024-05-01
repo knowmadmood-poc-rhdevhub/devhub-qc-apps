@@ -1,4 +1,4 @@
-mbrillosapiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: myapp-dev-team
