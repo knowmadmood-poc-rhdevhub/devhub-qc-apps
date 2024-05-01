@@ -10,15 +10,5 @@ spec:
     email: oye@nomEscribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
   # parent: myapp-location
-  children: [ichaso-rhdh-developer]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: ichaso-rhdh-developer
-spec:
-  profile:
-    displayName: desarrollador de cabecera
-    email: ichaso-rhdh-developer@nomescribas.com
-    picture: https://cdn1.iconfinder.com/data/icons/people-career-for-business/64/Artboard_2-512.png
-  memberOf: [myapp-dev-team]
+  children: []
+
