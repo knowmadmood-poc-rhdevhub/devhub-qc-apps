@@ -6,9 +6,9 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: equipo desarrollo myapp
-    email: oye@nomEscribas.com
+    displayName: Equipo para el desarrollo Mi Primera APP para esta demo
+    email: equipoMiPrimera_APP@nomEscribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
     parent: miprimera-app-location
-  children: []
+  children: [departamento_desarrollo_software]
 
