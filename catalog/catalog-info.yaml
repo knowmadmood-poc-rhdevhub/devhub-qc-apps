@@ -3,9 +3,6 @@ kind: Location
 metadata:
   name: miprimera-app-location
   description: Catálogo componentes Mi primera app para la demo
-spec:
-  profile:
-    parent: lob-industrializacion-corp
   targets:
     - ./group.yaml
     # - ./membrillos.yaml
