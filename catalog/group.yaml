@@ -7,8 +7,8 @@ spec:
   type: team
   profile:
     displayName: Equipo para el desarrollo Mi Primera APP para esta demo
-    email: equipoMiPrimera_APP@nomEscribas.com
+    email: equipo_miprimera_app@nomEscribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
     parent: miprimera-app-location
-  children: [departamento_desarrollo_software]
+  children: [equipo_desarrolladores_backend, equipo_desarrolladores_front]
 
