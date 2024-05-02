@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: myapp-location
+  name: miprimera-app-location
   description: A collection of all the catalog entities in the 'myapp' example app
 spec:
   targets:
