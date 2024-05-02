@@ -21,6 +21,8 @@ metadata:
     quay.io/repository-slug: myorg/myapp
     backstage.io/kubernetes-namespace: myapp
 spec:
+  profile:
+    parent: lob-industrializacion-corp
   type: website
   system: myapp
   owner: myapp-dev-team
