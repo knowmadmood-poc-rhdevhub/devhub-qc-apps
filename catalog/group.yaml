@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: myapp-dev-team
-  title: myapp Dev Team from RHDH LoB Industrialization
+  title: Mi primera APP - ORG LoB Industrialization - Corp
 spec:
   type: team
   profile:
