@@ -6,6 +6,7 @@ metadata:
     app: nginx
     app.openshift.io/runtime: nginx
     backstage.io/kubernetes-id: nginx-ex
+    backstage.io/app.kubernetes.io/instance: redhat-developer-hub
 spec:
   replicas: 2
   selector:
@@ -28,6 +29,7 @@ metadata:
   name: nginx-service
   labels:
     app: nginx
+    backstage.io/app.kubernetes.io/instance: redhat-developer-hub
 spec:
   selector:
     app: nginx
@@ -43,6 +45,7 @@ metadata:
   name: nginx-route
   labels:
     app: nginx
+    backstage.io/app.kubernetes.io/instance: redhat-developer-hub
 spec:
   port:
     targetPort: 8080
