@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: myapp
-  title: myapp System
+  name: rh-devhub
+  title: System Red hat Developer Hub
 spec:
-  owner: myapp-dev-team
+  owner: departamento_platform_engineering
