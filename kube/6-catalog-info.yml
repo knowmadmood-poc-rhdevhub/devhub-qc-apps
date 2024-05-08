@@ -12,6 +12,7 @@ metadata:
     backstage.io/kubernetes-id: 'nginx-ex'
     backstage.io/kubernetes-namespace: rhdevhub
     backstage.io/kubernetes-label-selector: 'app=nginx'
+    backstage.io/app.kubernetes.io/instance: redhat-developer-hub
 spec:
   type: service
   system: myapp
