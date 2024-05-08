@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: myappdb
-  title: Example PostgreSQL Database for myapp
+  name: rh-devhub__db
+  title: PostgreSQL Database for Red Hat Developer Hub
   description: PostgreSQL is a powerful, open source object-relational database system.
   links:
     - url: https://www.postgresql.org
@@ -14,5 +14,5 @@ metadata:
 spec:
   type: database
   lifecycle: production
-  owner: myapp-dev-team
-  system: myapp
+  owner: departamento_platform_engineering
+  system: rh-devhub
