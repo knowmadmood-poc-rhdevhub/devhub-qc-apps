@@ -20,7 +20,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: react-ssr-template
-  title: React/Next.js SSR Template
+  title: React/Next.js SSR Template :)
   description: Create an SPA powered by Next.js
   tags:
     - recommended
