@@ -67,7 +67,7 @@ spec:
         token:
           title: token
           type: string
-          default: "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"
+          default: "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"
   steps:
     - id: template
       name: Fetch Skeleton + Template
