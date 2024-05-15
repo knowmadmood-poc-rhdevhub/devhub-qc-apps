@@ -88,7 +88,7 @@ spec:
       input:
         allowedHosts: ["github.com"]
         description: Initial source tree for ${{ parameters.component_id }}
-        repoUrl: ${{ parameters.repoUrl }} &token=${{ parameters.token }}
+        repoUrl: ${{ parameters.repoUrl }}&token=${{ parameters.token }}
         token: ${{ parameters.token }}
     - id: register
       name: Register
