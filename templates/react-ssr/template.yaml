@@ -21,13 +21,13 @@ kind: Template
 metadata:
   name: react-ssr-template
   title: React/Next.js SSR Template :)
-  description: Create an SPA powered by Next.js
+  description: Create an SPA powered by Next.js :)
   tags:
     - recommended
     - react
     - spa
 spec:
-  owner: ichaso@knowmadmood.com
+  owner: departamento_platform_engineering
   type: website
   parameters:
     - title: Provide some simple information
