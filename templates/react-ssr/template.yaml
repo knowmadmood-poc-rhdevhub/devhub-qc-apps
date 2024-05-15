@@ -55,6 +55,7 @@ spec:
     - title: Choose a location
       required:
         - repoUrl
+        - token
       properties:
         repoUrl:
           title: Repository Location
@@ -63,6 +64,10 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+        token:
+          title: token
+          type: string
+          default: "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"
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -84,8 +89,7 @@ spec:
         allowedHosts: ["github.com"]
         description: Initial source tree for ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
-        token: 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
-
+        token: ${{ parameters.token }}
     - id: register
       name: Register
       action: catalog:register
